@@ -86,23 +86,30 @@
 
 @media (max-width: 600px) {
   .section {
-    margin: 1.5rem 0 0 0;
+    margin: 0.7rem 0 0 0;
   }
   .section h2 {
-    font-size: 1.1rem;
-  }
-  .subtitle {
-    font-size: 0.9rem;
-  }
-  .card {
-    padding: 1rem 0.5rem;
-    min-width: 100px;
-    max-width: 98vw;
-  }
-  .card h3 {
     font-size: 1rem;
   }
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  .root {
+    gap: 0.7rem;
+    width: 100vw;
+    max-width: 100vw;
+    flex-direction: column;
+  }
+  .card {
+    padding: 0.5rem 0.2rem;
+    min-width: 0;
+    max-width: 98vw;
+    width: 100vw;
+  }
+  .card h3 {
+    font-size: 0.9rem;
+  }
   .card p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 } 
