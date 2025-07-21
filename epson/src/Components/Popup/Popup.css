@@ -139,3 +139,71 @@
 .modal-call-btn:hover {
   background: #007be8;
 }
+
+/* Tablet View */
+@media (max-width: 900px) {
+  .modal-content {
+    min-width: auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px 16px;
+  }
+
+  .modal-logo {
+    font-size: 2.5rem;
+  }
+
+  .modal-support {
+    font-size: 1.4rem;
+  }
+
+  .modal-desc {
+    font-size: 1.2rem;
+  }
+
+  .modal-call-btn {
+    font-size: 1.6rem;
+    padding: 16px 32px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .modal-content {
+    width: 95%;
+    padding: 16px 12px;
+    border-width: 4px;
+  }
+
+  .modal-logo {
+    font-size: 2rem;
+  }
+
+  .modal-support {
+    font-size: 1.2rem;
+  }
+
+  .phone-emoji {
+    font-size: 1.4rem;
+  }
+
+  .modal-desc {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .modal-call-btn {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .close-btn {
+    top: 12px;
+    right: 12px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+  }
+}

@@ -126,23 +126,107 @@
   box-shadow: 0 1px 0 #e0e6ed;
 }
 
+/* Tablet View */
 @media (max-width: 900px) {
+  .navbar {
+    padding: 12px 16px;
+  }
+  
+  .navbar-links {
+    gap: 24px;
+    font-size: 16px;
+  }
+
+  .navbar-customer-service {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .navbar-topbar {
+    padding: 6px 16px 0 16px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 12px 8px;
+    padding: 8px;
+    position: relative;
   }
+
   .navbar-links {
-    gap: 18px;
-    font-size: 16px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    padding: 16px 0;
   }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
   .navbar-customer-service {
-    font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 12px;
-    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 16px;
   }
+
   .navbar-logo img {
-    height: 36px;
+    height: 32px;
+  }
+
+  .navbar-topbar {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .navbar-topbar-right {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navbar-topbar-left {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Hamburger Menu Styles */
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+    padding: 4px;
+    z-index: 100;
+  }
+
+  .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+
+  .hamburger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
   }
 }
