@@ -135,3 +135,33 @@
     font-size: 2.1rem;
   }
 } 
+
+@media (max-width: 600px) {
+  .heroContent {
+    padding: 8px 0.5vw;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .leftContent h1 {
+    font-size: 1.1rem;
+  }
+  .heroDescription {
+    font-size: 0.95rem;
+  }
+  .rightImage {
+    min-width: 0;
+    width: 100vw;
+    height: 100vw;
+    max-width: 100vw;
+    max-height: 60vw;
+    border-radius: 0 0 0 18vw;
+    margin-top: 10px;
+  }
+  .badgesRow, .awardsRow {
+    gap: 4px;
+  }
+  .badge {
+    font-size: 0.85rem;
+    padding: 4px 6px;
+  }
+} 

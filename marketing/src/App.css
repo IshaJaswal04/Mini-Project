@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  width: 100vw;
+  max-width: 100vw;
 }
 
 .App-logo {
@@ -38,3 +40,21 @@
   }
 }
 /* hello */
+@media (max-width: 900px) {
+  .App-header {
+    font-size: calc(9px + 1.5vmin);
+    padding: 1.5rem 0.5rem;
+  }
+  .App-logo {
+    height: 30vmin;
+  }
+}
+@media (max-width: 600px) {
+  .App-header {
+    font-size: calc(8px + 1vmin);
+    padding: 1rem 0.2rem;
+  }
+  .App-logo {
+    height: 20vmin;
+  }
+}

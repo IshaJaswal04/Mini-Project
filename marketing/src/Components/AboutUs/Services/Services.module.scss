@@ -96,4 +96,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .servicesSection {
+    padding: 1.2rem 0.2rem;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+  }
+  .card {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    max-width: 98vw;
+  }
+  .card h3 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 0.95rem;
+  }
 } 

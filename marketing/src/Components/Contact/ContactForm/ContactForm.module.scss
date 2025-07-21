@@ -90,4 +90,32 @@
   .contact-form-section p {
     font-size: 1.05rem;
   }
+}
+
+@media (max-width: 600px) {
+  .contact-form-section {
+    padding: 0.3rem 0.1rem;
+    margin: 1rem 0 1.5rem 0;
+  }
+  .contact-form-section h2 {
+    font-size: 0.95rem;
+  }
+  .contact-form-section p {
+    font-size: 0.85rem;
+  }
+  .contact-form {
+    padding: 0.3rem 0.1rem 0.5rem 0.1rem;
+    max-width: 100vw;
+    width: 100vw;
+    margin: 0;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.2rem;
+  }
+  .contact-form button {
+    font-size: 0.95rem;
+    padding: 0.5rem 0;
+  }
 } 

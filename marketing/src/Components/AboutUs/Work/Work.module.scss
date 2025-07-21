@@ -70,3 +70,58 @@
   color: #1565c0;
   line-height: 1.5;
 } 
+
+@media (max-width: 900px) {
+  .workSection {
+    height: auto;
+    padding: 0 4px;
+  }
+  .title {
+    font-size: 1.7rem;
+  }
+  .grid {
+    gap: 16px;
+  }
+  .card {
+    height: auto;
+    padding: 24px 12px;
+  }
+}
+@media (max-width: 600px) {
+  .workSection {
+    padding: 0 1vw;
+    max-width: 100vw;
+    width: 100vw;
+    height: auto;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+  .subtitle {
+    font-size: 0.85rem;
+  }
+  .grid {
+    gap: 8px;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .card {
+    padding: 0.5rem 0.2rem;
+    height: auto;
+    min-width: 0;
+    max-width: 98vw;
+    width: 100vw;
+  }
+  .icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 8px;
+  }
+  .cardTitle {
+    font-size: 0.85rem;
+  }
+  .cardDesc {
+    font-size: 0.7rem;
+  }
+} 

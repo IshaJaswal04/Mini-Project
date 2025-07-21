@@ -26,7 +26,7 @@ function AboutUsHero() {
             <button className ={styles.button}><a href ="/contact">Contact Us</a></button>
           </div>
         </div>
-        <div className={styles.rightImage} />
+        
       </div>
     </section>
   );

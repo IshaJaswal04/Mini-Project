@@ -82,4 +82,27 @@
     max-width: 100%;
     min-width: 0;
   }
+}
+
+@media (max-width: 600px) {
+  .section {
+    margin: 1.5rem 0 0 0;
+  }
+  .section h2 {
+    font-size: 1.1rem;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+  }
+  .card {
+    padding: 1rem 0.5rem;
+    min-width: 100px;
+    max-width: 98vw;
+  }
+  .card h3 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 0.95rem;
+  }
 } 

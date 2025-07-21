@@ -42,4 +42,36 @@
 
 .ctaButton:hover {
   background: #0d47a1;
+}
+
+@media (max-width: 900px) {
+  .ctaContainer {
+    min-height: 120px;
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .ctaButton {
+    font-size: 1rem;
+    padding: 10px 24px;
+  }
+}
+@media (max-width: 600px) {
+  .ctaContainer {
+    min-height: 90px;
+    flex-direction: column;
+    padding: 0 4px;
+  }
+  .overlay {
+    padding: 20px 0;
+  }
+  .title {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+  }
+  .ctaButton {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
 } 

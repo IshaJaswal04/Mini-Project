@@ -108,4 +108,28 @@ h2 {
   .root {
     padding: 2rem 1rem;
   }
+}
+
+@media (max-width: 600px) {
+  .root {
+    padding: 1rem 0.2rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .why-choose-us__feature {
+    padding: 0.7rem 0.2rem;
+  }
+  .why-choose-us__icon {
+    font-size: 1.1rem;
+  }
+  .why-choose-us__feature h3 {
+    font-size: 1rem;
+  }
+  .why-choose-us__feature p {
+    font-size: 0.95rem;
+  }
+  .why-choose-us__map iframe {
+    height: 120px;
+  }
 } 

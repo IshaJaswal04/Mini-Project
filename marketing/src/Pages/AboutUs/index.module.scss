@@ -112,3 +112,28 @@
     font-size: 2.1rem;
   }
 }
+
+@media (max-width: 600px) {
+  .heroContent {
+    padding: 20px 2px;
+  }
+  .leftContent h1 {
+    font-size: 1.2rem;
+  }
+  .heroDescription {
+    font-size: 1rem;
+  }
+  .rightImage {
+    min-width: 120px;
+    height: 120px;
+    border-radius: 0 0 0 30px;
+    margin-top: 16px;
+  }
+  .badgesRow, .awardsRow {
+    gap: 8px;
+  }
+  .badge {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}

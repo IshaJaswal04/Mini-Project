@@ -232,3 +232,54 @@
     gap: 1.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .contact-hero {
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    min-height: 220px;
+  }
+  .contact-hero h1 {
+    font-size: 1.5rem;
+  }
+  .contact-hero p {
+    font-size: 1rem;
+  }
+  .lets-talk {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+  }
+  .lets-talk h2 {
+    font-size: 1.3rem;
+  }
+  .lets-talk p {
+    font-size: 0.95rem;
+  }
+  .lets-talk__card {
+    min-width: 120px;
+    max-width: 98vw;
+    padding: 1rem 0.5rem;
+  }
+  .contact-form-section {
+    padding: 1rem 0.2rem;
+  }
+  .contact-form-section h2 {
+    font-size: 1.2rem;
+  }
+  .contact-form-section p {
+    font-size: 0.95rem;
+  }
+  .why-choose-us {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+  }
+  .why-choose-us h2 {
+    font-size: 1.1rem;
+  }
+  .why-choose-us__feature {
+    padding: 1rem 0.5rem;
+  }
+  .why-choose-us__icon {
+    font-size: 1.1rem;
+  }
+  .why-choose-us__map iframe {
+    height: 160px;
+  }
+}
