@@ -164,3 +164,36 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 900px) {
+  .faqWrapper {
+    padding: 0 6px 24px 6px;
+  }
+  .faqTitle {
+    font-size: 1.5rem;
+  }
+  .faqSubtitle {
+    font-size: 0.95rem;
+  }
+  .faqQuestion {
+    font-size: 0.98rem;
+    padding: 14px 10px 10px 10px;
+  }
+  .faqAnswer {
+    padding: 0 10px 14px 10px;
+    font-size: 0.92rem;
+  }
+  .supportBox {
+    padding: 18px 6px 14px 6px;
+  }
+  .supportTitle {
+    font-size: 1.1rem;
+  }
+  .supportButtons {
+    gap: 10px;
+  }
+  .contactBtn, .scheduleBtn {
+    font-size: 0.93rem;
+    padding: 10px 0;
+  }
+}

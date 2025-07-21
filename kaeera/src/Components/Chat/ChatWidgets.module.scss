@@ -187,4 +187,99 @@
 .ctaBtnSecondary:hover {
   background: #fff;
   color: #4f8cff;
+}
+
+@media (max-width: 900px) {
+  .chatWidgetsSection {
+    padding: 24px 0 0 0;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .statsRow {
+    gap: 24px;
+    margin: 18px 0 0 0;
+  }
+  .widgetsRow {
+    gap: 16px;
+    margin: 24px 0 0 0;
+  }
+  .widgetCard {
+    width: 90vw;
+    max-width: 320px;
+    padding: 18px 8px 14px 8px;
+  }
+  .ctaSection {
+    padding: 24px 0 18px 0;
+    max-width: 98vw;
+  }
+  .ctaTitle {
+    font-size: 1.3rem;
+  }
+  .ctaSubtitle {
+    font-size: 1rem;
+  }
+  .ctaButtons {
+    gap: 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .chatWidgetsSection {
+    padding: 8px 0 0 0;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+  }
+  .statsRow {
+    flex-direction: column;
+    gap: 10px;
+    margin: 8px 0 0 0;
+  }
+  .widgetsRow {
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px 0 0 0;
+  }
+  .widgetCard {
+    width: 98vw;
+    max-width: 99vw;
+    padding: 8px 2px 8px 2px;
+  }
+  .widgetTitle {
+    font-size: 1rem;
+  }
+  .widgetDesc {
+    font-size: 0.85rem;
+  }
+  .featuresList {
+    font-size: 0.85rem;
+  }
+  .ctaSection {
+    padding: 10px 0 8px 0;
+    max-width: 100vw;
+    border-radius: 12px 12px 0 0;
+  }
+  .ctaTitle {
+    font-size: 1rem;
+  }
+  .ctaSubtitle {
+    font-size: 0.85rem;
+  }
+  .ctaButtons {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .ctaBtnPrimary, .ctaBtnSecondary {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+  }
 } 

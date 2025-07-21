@@ -149,3 +149,89 @@
     max-width: 400px;
   }
 }
+
+@media (max-width: 900px) {
+  .whyChooseSection {
+    padding: 24px 0 0 0;
+  }
+  .heading {
+    font-size: 1.7rem;
+  }
+  .featuresGrid {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .featureCard {
+    width: 95vw;
+    max-width: 340px;
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+  }
+  .ctaSection {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .ctaHeading {
+    font-size: 1.3rem;
+  }
+  .ctaSubtext {
+    font-size: 1rem;
+  }
+  .ctaButtons {
+    gap: 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .whyChooseSection {
+    padding: 10px 0 0 0;
+  }
+  .heading {
+    font-size: 1.1rem;
+  }
+  .subheading {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+  .featuresGrid {
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .featureCard {
+    width: 99vw;
+    max-width: 98vw;
+    padding: 0.7rem 0.2rem 0.7rem 0.2rem;
+  }
+  .featureTitle {
+    font-size: 1rem;
+  }
+  .featureDesc {
+    font-size: 0.85rem;
+  }
+  .featureHighlight {
+    font-size: 1.2rem;
+  }
+  .featureSubtext {
+    font-size: 0.8rem;
+  }
+  .ctaSection {
+    padding: 0.7rem 0.1rem 0.7rem 0.1rem;
+    max-width: 100vw;
+    border-radius: 12px;
+  }
+  .ctaHeading {
+    font-size: 1rem;
+  }
+  .ctaSubtext {
+    font-size: 0.85rem;
+  }
+  .ctaButtons {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .applyBtn, .commissionBtn {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+}
