@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .email-marketing-range-section {
   background: #19587d;
   background-size: cover;
@@ -35,7 +45,7 @@
   gap: 32px;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 0 24px;
 }
 

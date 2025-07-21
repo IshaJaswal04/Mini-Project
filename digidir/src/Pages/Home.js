@@ -5,7 +5,7 @@ import AboutSection from '../Components/AboutSection/AboutSection'
 import EmailMarketingRangeSection from '../Components/EmailMarketing/EmailMarketingRangeSection'
 import SEOSection from '../Components/SEOSection/SEOSection'
 import SocialAdsSection from '../Components/SocialAds/SocialAdsSection'
-import GoogleAdsRangeSection from '../Components/GoogleAds/GoogleAdsRangeSection'
+// import GoogleAdsRangeSection from '../Components/GoogleAds/GoogleAdsRangeSection'
 import GetStarted from '../Components/GetStarted/GetStarted'
 import TransparencyServiceSection from '../Components/Transparency/TransparencyServiceSection'
 import TestimonialsSection from '../Components/Testimonials/TestimonialsSection'
@@ -19,7 +19,7 @@ const Home = () => {
       <AboutSection />
       <SEOSection />
       <SocialAdsSection />
-      <GoogleAdsRangeSection />
+      {/* <GoogleAdsRangeSection /> */}
       <EmailMarketingRangeSection />
       <BusinessValueSection/>
       <InvestmentExpertsSection />
