@@ -1,0 +1,297 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    margin-top: 150px;
+}
+
+
+.banner-button{
+    background-color: #e60000;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border:none;
+    padding: 8px;
+    width: 500px;
+    letter-spacing: 2px;
+}
+
+.banner-button:hover{
+    background-color: white;
+    color:#e60000;
+    border:0.5px solid #e60000 ;
+    
+}
+
+
+.banner-box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(219, 219, 219);
+    margin-top:90px;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+
+}
+.box-image{
+    margin-top: 60px;
+}
+
+.box-button{
+    background-color: #e60000;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border:none;
+    padding: 8px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.box-title{
+    font-size: 1rem;
+}
+
+.box-text{
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.box-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap: 3px;
+    margin-top: 60px;
+    background: linear-gradient(90deg, #e8322c 0%, #cb383c 30%, #5b81d4 100%);
+    color: #fff;
+    height: 230px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+
+}
+
+.box-divider{
+    width:1px;
+    height: 90px;
+    background-color: rgb(219, 219, 219);
+    margin: 30px 20px;
+}
+
+.box-container-title{
+    font-size: 1 rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.box-container-text{
+    font-size: 0.9rem;
+    margin-top: 13px;
+
+}   
+.container-button{
+    background-color: transparent;
+    font-size: 0.8rem;
+    color:white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-top:30px;
+    letter-spacing: 2px;;
+    font-weight: 500;
+}
+.container-button:hover{
+    background-color: white;
+    color:#e60000;
+    border: 0.5px solid #e60000 ;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner-button {
+        width: 450px;
+        font-size: 0.85rem;
+    }
+    
+    .banner-box {
+        width: 70%;
+        margin-top: 70px;
+    }
+    
+    .box-container {
+        margin-top: 50px;
+        height: 200px;
+    }
+    
+    .box {
+        height: 130px;
+    }
+    
+    .box-divider {
+        height: 80px;
+        margin: 25px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        margin-top: 100px;
+    }
+    
+    .banner-button {
+        width: 90%;
+        max-width: 400px;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .banner-box {
+        width: 85%;
+        margin-top: 60px;
+    }
+    
+    .box-image {
+        margin-top: 40px;
+    }
+    
+    .box-button {
+        width: 130px;
+        font-size: 0.8rem;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .box-title {
+        font-size: 0.9rem;
+    }
+    
+    .box-text {
+        font-size: 0.8rem;
+        margin-top: 15px;
+    }
+    
+    .box-container {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 40px;
+        height: auto;
+        padding: 30px 20px;
+    }
+    
+    .box {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .box-divider {
+        width: 80%;
+        height: 1px;
+        margin: 15px 0;
+    }
+    
+    .box-container-title {
+        font-size: 0.9rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .box-container-text {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    
+    .container-button {
+        font-size: 0.75rem;
+        margin-top: 20px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        margin-top: 80px;
+    }
+    
+    .banner-button {
+        width: 95%;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+        padding: 6px;
+    }
+    
+    .banner-box {
+        width: 90%;
+        margin-top: 50px;
+    }
+    
+    .box-image {
+        margin-top: 30px;
+    }
+    
+    .box-button {
+        width: 110px;
+        font-size: 0.75rem;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .box-title {
+        font-size: 0.85rem;
+    }
+    
+    .box-text {
+        font-size: 0.75rem;
+        margin-top: 12px;
+    }
+    
+    .box-container {
+        padding: 25px 15px;
+        margin-top: 30px;
+    }
+    
+    .box {
+        margin-bottom: 15px;
+    }
+    
+    .box-divider {
+        width: 90%;
+        margin: 12px 0;
+    }
+    
+    .box-container-title {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+    
+    .box-container-text {
+        font-size: 0.75rem;
+        margin-top: 8px;
+    }
+    
+    .container-button {
+        font-size: 0.7rem;
+        margin-top: 15px;
+        letter-spacing: 1px;
+        padding: 6px;
+    }
+}

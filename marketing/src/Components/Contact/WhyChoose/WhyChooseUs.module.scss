@@ -1,0 +1,111 @@
+.root {
+  background: #fff;
+  padding: 3rem 6vw 2rem 6vw;
+  border-radius: 16px;
+  margin: 3rem 0;
+  box-shadow: 0 4px 24px rgba(21, 101, 192, 0.07);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2.5rem;
+  color: #1565c0;
+}
+
+.why-choose-us__features {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  margin-bottom: 2.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  overflow: hidden;
+}
+
+.why-choose-us__feature {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border: none;
+  border-right: 1px solid #e0e0e0;
+  box-shadow: none;
+  text-align: left;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.why-choose-us__feature:last-child {
+  border-right: none;
+}
+
+.why-choose-us__icon {
+  font-size: 2.2rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  color: #222;
+  min-width: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-choose-us__feature h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #222;
+  margin-top: 0;
+}
+
+.why-choose-us__feature p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 0;
+}
+
+.why-choose-us__feature > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.why-choose-us__map {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.why-choose-us__map iframe {
+  border: 0;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1500px;
+  height: 300px;
+  box-shadow: 0 2px 12px rgba(21,101,192,0.07);
+}
+
+@media (max-width: 900px) {
+  .why-choose-us__features {
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .why-choose-us__feature {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+  }
+  .why-choose-us__feature:last-child {
+    border-bottom: none;
+  }
+  .root {
+    padding: 2rem 1rem;
+  }
+} 

@@ -1,0 +1,234 @@
+.contact-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem 2rem 2rem;
+  background: #fff;
+  min-height: 400px;
+  gap: 2rem;
+
+  &__content {
+    max-width: 600px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #222;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #444;
+  }
+
+  &__cta {
+    background: #892cdc;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: background 0.2s;
+    font-weight: 600;
+  }
+  &__cta:hover {
+    background: #5e17eb;
+  }
+
+  &__image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add image/illustration styles here */
+  }
+}
+
+.lets-talk {
+  padding: 3rem 2rem 2rem 2rem;
+  background: #faf7ff;
+  text-align: center;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  p {
+    color: #555;
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  &__card {
+    background: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    min-width: 260px;
+    max-width: 340px;
+    flex: 1 1 260px;
+    box-shadow: 0 2px 8px rgba(137,44,220,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  &__icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #892cdc;
+  }
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  a {
+    color: #892cdc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.contact-form-section {
+  padding: 3rem 2rem 2rem 2rem;
+  background: #fff;
+  text-align: center;
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  p {
+    color: #555;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+
+  input, textarea {
+    padding: 1rem;
+    border: 1.5px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: none;
+    outline: none;
+    transition: border 0.2s;
+  }
+  input:focus, textarea:focus {
+    border: 1.5px solid #892cdc;
+  }
+  button {
+    background: #0056a3;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.9rem 2.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+    margin-top: 0.5rem;
+  }
+  button:hover {
+    background: #003e7e;
+  }
+}
+
+.why-choose-us {
+  padding: 3rem 2rem 2rem 2rem;
+  background: #faf7ff;
+  text-align: center;
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  &__features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  &__feature {
+    background: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    min-width: 220px;
+    max-width: 320px;
+    flex: 1 1 220px;
+    box-shadow: 0 2px 8px rgba(137,44,220,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__icon {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #892cdc;
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  p {
+    color: #555;
+    font-size: 1rem;
+  }
+  &__map {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* Add map embed styles here */
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-hero {
+    flex-direction: column;
+    text-align: center;
+    &__image {
+      margin-top: 2rem;
+    }
+  }
+  .lets-talk__info, .why-choose-us__features {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

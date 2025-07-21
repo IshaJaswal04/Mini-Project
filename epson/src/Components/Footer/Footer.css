@@ -1,0 +1,144 @@
+.footer {
+  background: #f7f8f9;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  
+}
+
+.footer-container {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 40px;
+  justify-items: center;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1 1 180px;
+  min-width: 180px;
+}
+
+.footer-col h3 {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  justify-items: center;
+  text-align:left;
+}
+
+.footer-col ul li:hover {
+  color: #0073e6;
+}
+
+.footer-signup form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.footer-signup input[type="email"],
+.footer-signup select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.footer-signup button {
+  background: #bfc9dd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.footer-signup button:hover {
+  background: #a0b0d0;
+}
+
+.footer-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.98rem;
+}
+
+.footer-privacy {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.footer-privacy a {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background: #f7f8f9;
+  padding: 18px 0 10px 0;
+  text-align: center;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #000000;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.footer-bottom-content {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.footer-bottom-content a {
+  color: #0645ad;
+  text-decoration: underline;
+  margin-top: 40px;
+  font-size: 0.8rem;
+}
+
+.footer-bottom-content a:hover {
+  color: #0073e6;
+}
+
+
+@media (max-width: 900px) {
+  .footer-columns {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-col {
+    min-width: 0;
+  }
+}

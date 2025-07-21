@@ -1,0 +1,124 @@
+.google-ads-range-section {
+  padding: 60px 0;
+  background: #2979c9;
+  position: relative;
+}
+
+.google-ads-range-bg {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.google-ads-range-header {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.google-ads-range-subtitle {
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 3px solid #2ec4b6;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
+}
+
+.google-ads-range-header h2 {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 16px 0 0 0;
+}
+
+.google-ads-range-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.google-ads-range-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 40px 32px 32px 32px;
+  flex: 1 1 320px;
+  min-width: 320px;
+  max-width: 400px;
+  border-left: 5px solid #2ec4b6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.google-ads-range-card:hover {
+  box-shadow: 0 12px 36px rgba(46,196,182,0.18);
+  transform: scale(1.04);
+  border-left: 5px solid #00e6b8;
+  background: #18546d;
+  color: #fff;
+}
+
+.google-ads-range-card:hover h3,
+.google-ads-range-card:hover p {
+  color: #fff;
+}
+
+.google-ads-range-card:hover .google-ads-range-link {
+  color: #2ec4b6;
+}
+
+.google-ads-range-card:hover .google-ads-range-icon svg * {
+  stroke: #2ec4b6;
+}
+
+.google-ads-range-icon {
+  margin-bottom: 24px;
+}
+
+.google-ads-range-card h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #222;
+}
+
+.google-ads-range-card p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+.google-ads-range-link {
+  color: #2ec4b6;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s;
+}
+
+.google-ads-range-link:hover {
+  color: #2979c9;
+}
+
+@media (max-width: 900px) {
+  .google-ads-range-cards {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .google-ads-range-card {
+    max-width: 100%;
+    width: 100%;
+  }
+  .google-ads-range-header h2 {
+    font-size: 2rem;
+  }
+} 

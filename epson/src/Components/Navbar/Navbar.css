@@ -1,0 +1,148 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:white;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.navbar-links li {
+  cursor: pointer;
+  color: #111;
+  font-weight: 800;
+  transition: color 0.2s;
+}
+
+.navbar-links li:hover {
+  color: #003087;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.navbar-link:hover {
+  color: #003087;
+  font-weight: 700;
+}
+
+.navbar-customer-service {
+  background: #205877;
+  color: #fff;
+  padding: 18px 48px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.navbar-header {
+  width: 100%;
+  background: #ecf0f4;
+}
+
+.navbar-topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+  padding: 6px 32px 0 32px;
+  font-size: 1rem;
+  background: #ecf0f4;
+  color: #1a2a4a;
+}
+
+.navbar-topbar-left {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-flag {
+  font-size: 1.1em;
+  margin-right: 2px;
+}
+
+.navbar-country {
+  font-weight: 500;
+  margin-right: 18px;
+}
+
+.navbar-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-topbar-link {
+  color: #1a2a4a;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 4px;
+  transition: color 0.2s;
+}
+
+.navbar-topbar-link:hover {
+  color: #003087;
+  text-decoration: underline;
+}
+
+.navbar-topbar-divider {
+  color: #b0b8c1;
+  margin: 0 6px;
+}
+
+.navbar-flag-img {
+  width: 20px;
+  height: 14px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+
+.navbar {
+  margin-top: 8px;
+  box-shadow: 0 1px 0 #e0e6ed;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 8px;
+  }
+  .navbar-links {
+    gap: 18px;
+    font-size: 16px;
+  }
+  .navbar-customer-service {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  .navbar-logo img {
+    height: 36px;
+  }
+}

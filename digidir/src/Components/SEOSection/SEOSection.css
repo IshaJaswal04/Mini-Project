@@ -1,0 +1,126 @@
+.seo-section {
+  background: linear-gradient(180deg, #18546d 0%, #236d6d 100%);
+  padding: 80px 0 120px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.seo-section-header {
+  margin-bottom: 56px;
+}
+
+.seo-section-label {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  border-left: 4px solid #2bb3b1;
+  padding-left: 16px;
+  text-align: left;
+}
+
+.seo-section-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 16px 0 0 0;
+  line-height: 1.1;
+}
+
+.seo-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.seo-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(24, 84, 109, 0.08);
+  padding: 48px 36px 40px 36px;
+  flex: 1 1 320px;
+  max-width: 400px;
+  min-width: 320px;
+  border-left: 6px solid #2bb3b1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s;
+  margin-bottom: 32px;
+}
+
+.seo-card:hover {
+  box-shadow: 0 8px 32px rgba(24, 84, 109, 0.16);
+  transform: translateY(-8px) scale(1.03);
+}
+
+.seo-card-icon {
+  margin-bottom: 24px;
+}
+
+.seo-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.seo-card-desc {
+  color: #757575;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.seo-card-link {
+  color: #2bb3b1;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.seo-card-link:hover {
+  color: #18546d;
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1024px) {
+  .seo-cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .seo-card {
+    max-width: 90vw;
+    min-width: 0;
+    width: 100%;
+  }
+  .seo-section-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .seo-section {
+    padding: 40px 0 60px 0;
+  }
+  .seo-section-title {
+    font-size: 1.3rem;
+  }
+  .seo-card {
+    padding: 28px 12px 24px 12px;
+  }
+} 

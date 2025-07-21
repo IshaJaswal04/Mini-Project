@@ -1,0 +1,141 @@
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+}
+
+
+.modal-content {
+  background: #fff;
+  border-radius: 0px;
+  border: 8px solid #000;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  padding: 24px 20px 20px 20px; 
+  position: relative;
+  min-width: 600px; 
+  max-width: 95vw;
+  text-align: center;
+  max-height: 300px; /* or whatever fits your content */
+  overflow-y: auto;
+}
+
+
+.modal-logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a237e;
+  margin-bottom: 8px;
+}
+
+.modal-support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.phone-emoji {
+  font-size: 1.3rem;
+  margin-right: 8px;
+  color: #e91e63;
+}
+
+.support-text {
+  color: #333;
+}
+
+.modal-desc {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+.modal-call-btn {
+  display: inline-block;
+  background: #0094ff;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 6px;
+  transition: background 0.2s;
+}
+
+.modal-call-btn:hover {
+  background: #007be8;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: #fff;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.modal-logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1a237e;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.modal-support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.phone-emoji {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #e91e63;
+}
+
+.support-text {
+  color: #333;
+}
+
+.modal-desc {
+  font-size: 1.4rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.modal-call-btn {
+  display: inline-block;
+  background: #0094ff;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 18px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.modal-call-btn:hover {
+  background: #007be8;
+}

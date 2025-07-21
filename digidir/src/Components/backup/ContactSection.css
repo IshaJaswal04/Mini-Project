@@ -1,0 +1,87 @@
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: 
+    linear-gradient(rgba(34, 34, 34, 0.85), rgba(34, 34, 34, 0.85)),
+    url("https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=600&q=80") center/cover no-repeat;
+  padding-left: 300px;
+  color: #fff;
+}
+
+.contact-header {
+  margin-bottom: 32px;
+}
+
+.contact-tag {
+  color: #FFA800;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.contact-title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.contact-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.contact-label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  .contact-section {
+    padding-left: 40px;
+    min-height: 80vh;
+  }
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .contact-details {
+    gap: 20px;
+  }
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .contact-label {
+    font-size: 1.1rem;
+  }
+  .contact-info {
+    font-size: 1rem;
+  }
+} 

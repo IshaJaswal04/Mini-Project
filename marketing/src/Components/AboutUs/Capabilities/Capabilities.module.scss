@@ -1,0 +1,226 @@
+.capabilitiesSection {
+  padding: 1rem 0 1.2rem 0;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.subheading {
+  font-size: 1rem;
+  color: #1976d2;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem 1rem;
+  justify-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px 0 rgba(21, 101, 192, 0.08);
+  padding: 1.2rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 160px;
+  max-width: 230px;
+  width: 100%;
+  transition: box-shadow 0.2s;
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+  &:hover {
+    box-shadow: 0 4px 16px 0 rgba(30, 34, 90, 0.16);
+  }
+}
+
+.icon {
+  background: #1976d2;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.desc {
+  font-size: 0.92rem;
+  color: #444;
+  margin-bottom: 0.8rem;
+  flex: 1 1 auto;
+}
+
+.readMore {
+  color: #1976d2;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+  &:hover {
+    color: #0d47a1;
+    text-decoration: underline;
+  }
+}
+
+/* Add this to ensure all elements use border-box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.capabilitiesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 350px;
+  margin-top: 20px;
+}
+
+.leftSection {
+  background: #1976d2;
+  color: #fff;
+  flex: 1.2;
+  border-radius: 0 100px 0 0;
+  padding: 60px 40px 40px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.leftSection h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.leftSection p {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.rightSection {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -60px;
+  z-index: 2;
+}
+
+.card {
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 0 4px 24px rgba(44, 44, 44, 0.12);
+  padding: 40px 40px 40px 30px;
+  min-width: 400px;
+  max-width: 480px;
+  position: relative;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number {
+  font-size: 1.1rem;
+  color: #1565c0;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 0;
+}
+
+.arrowLeft, .arrowRight {
+  position: absolute;
+  bottom: 24px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #e3f2fd;
+  box-shadow: 0 2px 8px rgba(44,44,44,0.15);
+  font-size: 1.3rem;
+  color: #1976d2;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s;
+}
+
+.arrowLeft:hover, .arrowRight:hover {
+  box-shadow: 0 4px 16px rgba(21,101,192,0.22);
+}
+
+.arrowLeft {
+  left: -24px;
+}
+
+.arrowRight {
+  right: -24px;
+}
+
+@media (max-width: 900px) {
+  .capabilitiesWrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .leftSection {
+    border-radius: 0 0 60px 0;
+    padding: 40px 20px 30px 20px;
+    min-height: unset;
+  }
+  .rightSection {
+    margin-left: 0;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .card {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 16px 30px 16px;
+  }
+  .arrowLeft, .arrowRight {
+    bottom: 10px;
+    left: unset;
+    right: unset;
+  }
+} 

@@ -1,0 +1,72 @@
+.workSection {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #e3f2fd;
+  height: 800px;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #1976d2;
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 32px;
+  justify-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(21,101,192,0.07);
+  padding: 36px 28px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 260px;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 24px rgba(21,101,192,0.13);
+}
+
+.icon {
+  background: #1976d2;
+  color: #fff;
+  border-radius: 16px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cardDesc {
+  font-size: 0.9rem;
+  color: #1565c0;
+  line-height: 1.5;
+} 

@@ -1,0 +1,244 @@
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+
+}
+
+.support-header h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.Support-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    gap: 4px;
+    margin-top: 70px;
+
+}
+
+.Support-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    margin-top: 90px;
+    
+}
+
+.support-divider{
+    width: 1px;
+    height: 300px;
+    background-color: #ccc;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+.text{
+    padding-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.resource-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.resource-button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+}
+
+.resource-button:hover{
+    background-color: #e60000;
+    color: White;
+    padding: 4px;
+}
+.resource-button1{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+}
+.resource-button1:hover{
+    background-color: #e60000;
+    color: White;
+    padding: 4px;
+}
+.resource-button2{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-weight:600;
+    margin-top: 40px;
+}
+.resource-button2:hover{
+    background-color: #e60000;
+    color: White;
+    padding: 4px;
+}
+
+
+.resource{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .support {
+        margin-top: 50px;
+    }
+    
+    .support-header h1 {
+        font-size: 1.4rem;
+    }
+    
+    .container {
+        padding-top: 70px;
+    }
+    
+    .support-divider {
+        height: 250px;
+        margin: 0 15px;
+    }
+    
+    .resource {
+        width: 300px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .support {
+        margin-top: 40px;
+    }
+    
+    .support-header h1 {
+        font-size: 1.3rem;
+    }
+    
+    .Support-container,
+    .Support-container1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .support-divider {
+        width: 80%;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    .container {
+        padding-top: 50px;
+    }
+    
+    .resource {
+        width: 100%;
+        max-width: 280px;
+        height: 160px;
+    }
+    
+    .resource-icon {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .text {
+        font-size: 0.8rem;
+        padding-top: 15px;
+    }
+    
+    .resource-button,
+    .resource-button1,
+    .resource-button2 {
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+    
+    .resource-button1 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .support {
+        margin-top: 30px;
+    }
+    
+    .support-header h1 {
+        font-size: 1.2rem;
+    }
+    
+    .Support-container,
+    .Support-container1 {
+        gap: 15px;
+    }
+    
+    .container {
+        padding-top: 40px;
+    }
+    
+    .resource {
+        max-width: 250px;
+        height: 140px;
+    }
+    
+    .resource-icon {
+        height: 35px;
+        width: 35px;
+    }
+    
+    .text {
+        font-size: 0.75rem;
+        padding-top: 10px;
+    }
+    
+    .resource-button,
+    .resource-button1,
+    .resource-button2 {
+        font-size: 0.8rem;
+        margin-top: 15px;
+    }
+    
+    .resource-button1 {
+        margin-top: 30px;
+    }
+}

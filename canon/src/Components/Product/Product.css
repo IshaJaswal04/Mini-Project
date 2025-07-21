@@ -1,0 +1,206 @@
+.product-header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: -10px;
+}
+
+.sign-in-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+  
+}
+
+.sign-in-divider{
+    width: 1px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+.sign-in-icon{
+    height: 50px;
+}
+
+.sign-in{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
+.sign-in-step{
+    padding-top: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sign-in-text{
+
+    padding-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.sign-in-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.sign-button {
+
+    width: 120px;
+    height: 40px;
+    background-color: #e60000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.sign-button:hover{
+    background-color: white;
+    color:#e60000;
+    border:2px solid #e60000 ;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 60px;
+    gap: 5px;
+}
+
+.account-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.account-link{
+    color: #e60000;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .product-header h1 {
+        margin-top: 120px;
+        font-size: 1.8rem;
+    }
+    
+    .sign-in-container {
+        margin-top: 70px;
+    }
+    
+    .sign-in-divider {
+        height: 180px;
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-header h1 {
+        margin-top: 100px;
+        font-size: 1.6rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .sign-in-container {
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 30px;
+    }
+    
+    .sign-in-divider {
+        width: 80%;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    .sign-in {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .sign-in-step {
+        padding-top: 20px;
+        font-size: 0.9rem;
+    }
+    
+    .sign-in-text {
+        padding-top: 15px;
+        font-size: 0.8rem;
+    }
+    
+    .account {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 40px;
+    }
+    
+    .account-text,
+    .account-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-header h1 {
+        margin-top: 80px;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+    
+    .sign-in-container {
+        margin-top: 50px;
+        gap: 25px;
+    }
+    
+    .sign-in-icon {
+        height: 40px;
+    }
+    
+    .sign-in-step {
+        font-size: 0.85rem;
+    }
+    
+    .sign-in-text {
+        font-size: 0.75rem;
+    }
+    
+    .sign-button {
+        width: 100px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+    
+    .account-text,
+    .account-link {
+        font-size: 0.9rem;
+    }
+}
