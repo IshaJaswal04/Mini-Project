@@ -85,3 +85,75 @@
     font-size: 1rem;
   }
 } 
+@media (max-width: 900px) {
+  .contact-section {
+    padding-left: 40px;
+    padding-right: 24px;
+    min-height: 80vh;
+    align-items: flex-start;
+    background-position: center;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-details {
+    gap: 20px;
+  }
+
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contact-label {
+    font-size: 1.1rem;
+  }
+
+  .contact-info {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 40px 16px;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+  }
+
+  .contact-header {
+    margin-bottom: 24px;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .contact-details {
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-label {
+    font-size: 1rem;
+  }
+
+  .contact-info {
+    font-size: 0.95rem;
+  }
+}

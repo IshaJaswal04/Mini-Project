@@ -26,7 +26,7 @@ const Home = () => {
       <GetStarted/>
       <TransparencyServiceSection/>
       <TestimonialsSection />
-      <ContactSection />
+      <ContactSection/>
     </div>
   )
 }

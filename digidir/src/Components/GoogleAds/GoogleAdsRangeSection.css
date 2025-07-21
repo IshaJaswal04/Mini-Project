@@ -122,3 +122,73 @@
     font-size: 2rem;
   }
 } 
+
+@media (max-width: 900px) {
+  .google-ads-range-cards {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .google-ads-range-card {
+    max-width: 100%;
+    width: 100%;
+    padding: 32px 24px;
+  }
+
+  .google-ads-range-header h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .google-ads-range-subtitle {
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 2px;
+  }
+
+  .google-ads-range-bg {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .google-ads-range-section {
+    padding: 40px 0;
+  }
+
+  .google-ads-range-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .google-ads-range-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .google-ads-range-subtitle {
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+  }
+
+  .google-ads-range-card {
+    padding: 24px 16px;
+  }
+
+  .google-ads-range-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .google-ads-range-card p,
+  .google-ads-range-link {
+    font-size: 1rem;
+  }
+
+  .google-ads-range-link {
+    justify-content: center;
+  }
+
+  .google-ads-range-icon {
+    margin-bottom: 16px;
+  }
+}
