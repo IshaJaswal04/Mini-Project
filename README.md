@@ -1,3 +1,6 @@
+📌 Built with: HTML | CSS | JavaScript  
+🌐 Hosted on: Vercel
+
 ## 🚀 Featured Projects
 
 Here are some of the projects I’ve worked on — showcasing frontend development and UI/UX skills:
