@@ -1,4 +1,4 @@
-📌 Built with: HTML | CSS | JavaScript  
+📌 Built with: HTML | CSS | JavaScript  | React
 🌐 Hosted on: Vercel
 
 ## 🚀 Featured Projects
